@@ -5,7 +5,7 @@
 const games = [
     { title: "Javascript Minecraft", type: "html", path: "games/minecraft/index.html", thumb: "thumbs/plat.jpg" },
     { title: "Fancy RPG", type: "html", path: "games/btd4/index.html", thumb: "thumbs/rpg.jpg" },
-    { title: "Old School Flash", type: "swf", path: "games/flash/alien.swf", thumb: "thumbs/alien.jpg" },
+    { title: "BTD 5", type: "swf", path: "games/flash/bloons-tower-defense-5.swf", thumb: "thumbs/btd5.jpg" },
     { title: "Stick Figure Fight", type: "swf", path: "games/flash/fight.swf", thumb: "thumbs/fight.jpg" },
     // You can add infinite games here...
 ];
