@@ -3,8 +3,8 @@
 // Type 'html' expects a path to a folder/file.
 // Type 'swf' expects a path to a .swf file.
 const games = [
-    { title: "Javascript Minecraft", type: "html", path: "minecraft.html", thumb: "thumbs/plat.jpg" },
-    { title: "Fancy RPG", type: "html", path: "games/rpg/index.html", thumb: "thumbs/rpg.jpg" },
+    { title: "Javascript Minecraft", type: "html", path: "games/minecraft/index.html", thumb: "thumbs/plat.jpg" },
+    { title: "Fancy RPG", type: "html", path: "games/btd4/index.html", thumb: "thumbs/rpg.jpg" },
     { title: "Old School Flash", type: "swf", path: "games/flash/alien.swf", thumb: "thumbs/alien.jpg" },
     { title: "Stick Figure Fight", type: "swf", path: "games/flash/fight.swf", thumb: "thumbs/fight.jpg" },
     // You can add infinite games here...
