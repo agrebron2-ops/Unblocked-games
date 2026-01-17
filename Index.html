@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Arcade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">👾 Infinite Arcade</div>
+        <div class="controls">
+            <input type="text" id="searchBar" placeholder="Search games...">
+            <button onclick="shuffleFlash()">🔀 Shuffle Flash</button>
+        </div>
+    </header>
+
+    <main id="gameGrid">
+        </main>
+
+    <div id="gameModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Game Title</h2>
+                <div class="modal-actions">
+                    <button onclick="toggleFullscreen()">⛶ Fullscreen</button>
+                    <button onclick="closeGame()" class="close-btn">❌ Close</button>
+                </div>
+            </div>
+            
+            <div id="playerContainer">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
